@@ -1,0 +1,65 @@
+*{
+    margin: auto;
+}
+
+body{
+    background-image: url('../images/wallpaper.jpg');
+    background-color:#002F71;
+    font-family: Pridi;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #F0F3F8;
+
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.title{
+    color: #002F71;
+    overflow: hidden;
+	
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.btn{
+    border: none;
+    background-color: #006BFF;
+    color: #ffff;
+    width: 360px;
+    height: 55px;
+    font-size: 27px;
+}
+
+.nameUpdate{
+   font-size: 25px; 
+}
+
+.line{
+    background-color: #D6E1EF;
+    position: relative;
+    bottom: 65px;
+    height: 2px;
+    width: 500px;
+}
+
+.last-name{
+    position: relative;
+    left: -145px;
+
+    color: #006BFF;
+}
+
+.last{
+    padding-left: 3px;
+    color: #000;
+}
